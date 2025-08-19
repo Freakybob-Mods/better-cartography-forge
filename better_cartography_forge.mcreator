@@ -1,5 +1,58 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Map",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "map",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_cartography_forge/recipes/map.json",
+          "src/main/resources/data/better_cartography_forge/advancements/recipes/map.json"
+        ]
+      }
+    },
+    {
+      "name": "Dupemap",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupemap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_cartography_forge/advancements/recipes/dupemap.json",
+          "src/main/resources/data/better_cartography_forge/recipes/dupemap.json"
+        ]
+      }
+    },
+    {
+      "name": "Dupepaper",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupepaper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_cartography_forge/recipes/dupepaper.json",
+          "src/main/resources/data/better_cartography_forge/advancements/recipes/dupepaper.json"
+        ]
+      }
+    },
+    {
+      "name": "Dupeemptymap",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupeemptymap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/better_cartography_forge/recipes/dupeemptymap.json",
+          "src/main/resources/data/better_cartography_forge/advancements/recipes/dupeemptymap.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
